@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new BMIContent();
+            MainPage = new NavigationPage(new BMIContent());
         }
 
 
